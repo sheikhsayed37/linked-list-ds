@@ -13,7 +13,7 @@ class Node
 };
 int main()
 {
-     Node *a=new Node(10);
+     Node *a=new Node(10);//pointer use korahoi jeno memory teke konokico moce na jai
       Node *b=new Node(10);
        Node *c=new Node(10);
        a->next=b;
