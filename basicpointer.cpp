@@ -16,4 +16,5 @@ int main()
     cout<<x<<endl;
     cout<<ptr<<endl;  //ptr er value print korbe mane x er address print korbe
     cout<<*ptr<<endl; //ptr er value print korbe mane x er value
+    cout<<&x<<endl;  //x er address print korbe
 }        
