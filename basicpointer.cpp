@@ -6,6 +6,7 @@ void fun(int *ptr )
 {
     int y=200;
     ptr=&y;
+    cout<<ptr<<endl;  //ptr er value print korbe mane y er address print korbe
     cout<<"in fun"<<" "<<*ptr<<endl;
 }
 int main()
