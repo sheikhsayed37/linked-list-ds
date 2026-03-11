@@ -11,7 +11,6 @@ class Node
         this->next=NULL;
     }
 };
-
 void insert_at_head(Node *&head,int val)
 {
     Node *newnode =new Node(val);
@@ -19,7 +18,16 @@ void insert_at_head(Node *&head,int val)
     head =newnode;
 
 }
-
+         void print_linkedlist_output(Node *head)
+                                                //just arekta fun create kore sekane print korsi
+        {
+             Node *temp =head;
+             while(temp!=NULL)
+           {
+            cout<<temp->val<<endl;
+            temp=temp->next;
+           }   
+        }
 int main()
 {
         Node *head=new Node(10);
@@ -29,15 +37,9 @@ int main()
             head->next=a;
             a->next=b;
             b->next=c;
-
-            insert_at_head(head,100);
-             Node *temp =head;
-             while(temp!=NULL)
-           {
-            cout<<temp->val<<endl;
-            temp=temp->next;
-
-           }   
-
+        insert_at_head(head,100);
+        insert_at_head(head,200);
+        insert_at_head(head,200);
+        print_linkedlist_output(head);      
          
 }
