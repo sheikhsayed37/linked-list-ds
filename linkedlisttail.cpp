@@ -24,8 +24,7 @@ void insert_at_tail(Node *&head,int val)
      temp->next=newnode;
     
 }
-
-    void print_linkedlist_output(Node *head)
+   void print_linkedlist_output(Node *head)
                                                 //just arekta fun create kore sekane print korsi
     {
          Node *temp =head;
@@ -50,3 +49,7 @@ int main()
         print_linkedlist_output(head);      
          
 }
+
+
+
+sayed45@$&12
