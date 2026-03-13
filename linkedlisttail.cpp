@@ -11,6 +11,7 @@ class Node
         this->next=NULL;
     }
 };
+
 void insert_at_tail(Node *&head,int val)
 {
     
@@ -49,7 +50,5 @@ int main()
         print_linkedlist_output(head);      
          
 }
+//sayed45@$&12
 
-
-
-sayed45@$&12
