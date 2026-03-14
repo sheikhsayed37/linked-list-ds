@@ -21,8 +21,7 @@ class Node
     }
     newnode->next=temp->next;
     temp->next=newnode;
-    
-   }
+    }
   void print_linkedlist(Node *head)
    {
        Node *temp=head;

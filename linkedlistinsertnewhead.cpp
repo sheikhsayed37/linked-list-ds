@@ -17,9 +17,7 @@ void insert_at_head(Node *&head,int val)
     Node *newnode =new Node(val);
     newnode->next=head;
     head =newnode;
-
 }
-
 int main()
 {
         Node *head=new Node(10);
@@ -29,7 +27,6 @@ int main()
             head->next=a;
             a->next=b;
             b->next=c;
-
             insert_at_head(head,100);
              Node *temp =head;
              while(temp!=NULL)
