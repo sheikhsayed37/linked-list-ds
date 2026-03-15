@@ -33,8 +33,5 @@ int main()
            {
             cout<<temp->val<<endl;
             temp=temp->next;
-
-           }   
-
-         
+           }      
 }
