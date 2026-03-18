@@ -6,9 +6,11 @@ void fun(int *&p) //p er reference pass korlam mane p er address pass korlam
 
 }
 int main()
+
 {
     int x=10;
     int *p=&x;
     fun(p);
     cout<<"in main "<<p<<endl;
+    
 }
