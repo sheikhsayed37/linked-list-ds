@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Node
+
 {
     public :
     int val;
@@ -10,6 +11,7 @@ class Node
         this->val=val;
         this->next=NULL;
     }
+    
 };
 
 void insert_at_tail(Node *&head,int val)
