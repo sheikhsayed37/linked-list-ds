@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 void fun(int *ptr )
 {
     int y=200;
